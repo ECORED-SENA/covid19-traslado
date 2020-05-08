@@ -1,0 +1,136 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+    title EDT-Traslado del paciente sospechoso o confirmado Covid19
+    meta(meta name="description" content="A través de este evento de divulgación tecnológica se darán a conocer los lineamientos que deben implementar los servicios de transporte asistencial y atención prehospitalaria para el manejo de pacientes identificados como casos sospechosos o confirmados del coronavirus (SARS CoV-2).")    
+    link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
+    link(rel="stylesheet", href="assets/fonts/feather/feather.css")
+    link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
+    link(rel="stylesheet", href="assets/css/main.css?v=1.2")
+
+  body
+    header.header__programa
+      .container 
+        .header__nav.row.align-items-center         
+          .header__nav__logo.col-1
+            include ../assets/images/logos/senaLogo.svg
+
+          .header__nav__items.col-11
+            .row.justify-content-end              
+              a(href="#resultados") Objetivos
+              a(href="#temas") temas
+              a(href="#creditos") créditos
+        .header__info.row.align-items-center
+          .header__info__abstract.col-12.col-lg-6
+            h3 Evento de divulgación tecnológica para la mitigación de la pandemia COVID-19            
+            h1 EDT-TRASLADO DEL PACIENTE SOSPECHOSO O CONFIRMADO POR COVID19
+            .horizontal-divider 
+            p A través de este evento de divulgación tecnológica se darán a conocer los lineamientos que deben implementar los servicios de transporte asistencial y atención prehospitalaria para el manejo de pacientes identificados como casos sospechosos o confirmados del coronavirus (SARS CoV-2). 
+            a.btn.btn-danger(href="content/index.html", data-wow-delay=".3s").wow.pulse Ver contenidos       
+          .header__info__video.col-md-6.d-none.d-lg-block.wow.bounceInRight(data-wow-delay=".8s")
+            img(src="content/images/header/header_media.svg", alt="")
+
+    main
+      section#resultados.bgColor-LightBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color01
+              include ../assets/images/componente/sectionDivider.svg  
+        .container
+          .row
+            .section__subtitle
+              h2 Objetivos
+              .horizontal-divider
+
+          .row.justify-content-center             
+            .card__goal.col-10              
+              .card__goal__description
+                // span Cod  912948593
+                p Disminuir el riesgo de transmisión del COVID- 19 durante la atención prehospitalaria en salud, evitando la presentación de casos en trabajadores de la salud y en otros pacientes transportados en las ambulancias.        
+
+      section#temas.bgColor-NeutralBaseColor
+        .container
+          .row.justify-content-center.align-items-start
+            .section_divider.svg_color02
+              include ../assets/images/componente/sectionDivider.svg 
+        .container
+          .row
+            .section__subtitle
+              h2 Desarrollo de
+                br
+                |contenidos
+              .horizontal-divider
+
+          .row.justify-content-center
+            .col-12.col-sm-10
+              .card.wow.flipInX(data-wow-delay=".4s")
+                .card-body
+                  ul.list-group.list-group-flush.list.my-n3
+                    li.list-group-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 1
+                        .col.ml-n2
+                          span 
+                            a(href="content/#page/introduccion/") Introducción y bioseguridad
+                        .col-auto
+                          // Button
+                          a(href='content/#page/introduccion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+
+                    li.list-group-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 2
+                        .col.ml-n2
+                          span 
+                            a(href="content/#page/procedimiento-previo-traslado-paciente/") Procedimiento general previo al traslado asistencial de pacientes
+                        .col-auto
+                          // Button
+                          a(href='content/#page/procedimiento-previo-traslado-paciente/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 3
+                        .col.ml-n2
+                          span 
+                            a(href="content/#page/gestion-centros-regulacion/") Gestión de los centros de regulación y coordinación: CRUE, centrales de comunicaciones, despacho o referencia y contrarreferencia
+                        .col-auto
+                          // Button
+                          a(href='content/#page/gestion-centros-regulacion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+                    li.list-group-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 4
+                        .col.ml-n2
+                          span 
+                            a(href="content/#page/manejo-paciente-traslado-asistencial/") Manejo de pacientes y aislamiento durante el traslado asistencial 
+                        .col-auto
+                          // Button
+                          a(href='content/#page/manejo-paciente-traslado-asistencial/').btn.btn-light.nav-tema-item__btn
+                            | Ver más       
+
+                    li.list-group-item
+                      .row.align-items-center
+                        .col-auto
+                          .avatar.avatar-sm
+                            .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 5
+                        .col.ml-n2
+                          span 
+                            a(href="content/#page/descontaminacion-introduccion/") Descontaminación, limpieza y desinfección          
+                        .col-auto
+                          // Button
+                          a(href='content/#page/descontaminacion-introduccion/').btn.btn-light.nav-tema-item__btn
+                            | Ver más
+    
+    include content/includes/creditos.pug
+
+    script(src="assets/js/plugins.js")

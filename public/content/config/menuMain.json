@@ -1,0 +1,206 @@
+[
+  {
+    "icon": "fa fa-1x fa-home",
+    "slug": "external",
+    "title": "Volver al Inicio",
+    "path": "../"
+  },
+  {
+        "icon": "",
+        "slug": "introduccion-bioseguridad",
+        "title": "1. Introducción y bioseguridad",
+        "breadcrumb": ["Introducción"],
+        "path": "pages/1-1-introduccion.html", 
+        "submenu": [
+          {
+            "icon": "video",
+            "slug": "introduccion",
+            "title": "1.1 Introducción",
+            "breadcrumb": [
+              "Inicio",
+              "introduccion"
+            ],
+            "path": "pages/1-1-introduccion.html"
+          },{
+            "icon": "video",
+            "slug": "Bioseguridad",
+            "title": "1.2 Bioseguridad",
+            "breadcrumb": [
+              "Inicio",
+              "Bioseguridad"
+            ],
+            "path": "pages/1-2-bioseguridad.html"
+          },{
+            "icon": "document",
+            "slug": "precauciones-respiratorias-especificas",
+            "title": "1.3 Precauciones Respiratorias y específicas",
+            "breadcrumb": [
+              "Inicio",
+              "Precauciones Respiratorias y específicas"
+            ],
+            "path": "pages/1-3-precauciones-respiratorias.html"
+          },{
+            "icon": "document",
+            "slug": "instalacion-equipo-personal",
+            "title": "1.4 Instalación del equipo de protección personal",
+            "breadcrumb": [
+              "Inicio",
+              "Instalación del equipo de protección personal"
+            ],            
+            "path": "pages/1-4-instalacion-equipo-personal.html"
+          },{
+            "icon": "document",
+            "slug": "uso-mascara-tapabocas",
+            "title": "1.5 Uso de máscara tapabocas ",
+            "breadcrumb": [
+              "Inicio",
+              "Uso de máscara tapabocas"
+            ],            
+            "path": "pages/1-5-uso-mascara-tapabocas.html"
+          },{
+            "icon": "document",
+            "slug": "procedimientos-generan-aerosoles",
+            "title": "1.6 Procedimientos que generan aerosoles",
+            "breadcrumb": [
+              "Inicio",
+              "Procedimientos que generan aerosoles"
+            ],            
+            "path": "pages/1-6-procedimientos-generan-aerosoles.html"
+          }
+        ]       
+    },
+    {
+      "icon": "fa fa-1x fa-question-circle",
+      "slug": "actividad-didactica-bioseguridad",
+      "title": "Actividad didáctica",
+      "breadcrumb": [
+        "Inicio",
+        "Actividad didáctica No 1"
+      ],
+      "path": "pages/1-7-actividad-didactica.html"
+    },
+    {
+      "icon": "",
+      "slug": "procedimiento-previo-traslado-paciente",
+      "title": "2. Procedimiento general previo al traslado asistencial de pacientes.",
+      "breadcrumb": [
+        "Inicio",
+        "Procedimiento general previo al traslado asistencial de pacientes"
+      ],
+      "path": "pages/2-0-procedimiento-previo-traslado.html"      
+    },
+    {
+      "icon": "video",
+      "slug": "gestion-centros-regulacion",
+      "title": "3 Gestión de los centros de regulación y coordinación: CRUE, centrales de comunicaciones, despacho o referencia y contrarreferencia",
+      "breadcrumb": [
+        "Inicio", 
+        "Gestión de los centros de regulación y coordinación: CRUE"
+      ],
+      "path": "pages/3-0-gestion-centros-regulacion.html"          
+    },
+    {
+      "icon": "fa fa-1x fa-question-circle",
+      "slug": "actividad-didactica-gestion-centros",
+      "title": "Actividad didáctica No 2",
+      "breadcrumb": [
+        "Inicio",
+        "Actividad didáctica"
+      ],
+      "path": "pages/3-1-actividad-didactica.html"
+    },  
+    {
+      "icon": "",
+      "slug": "manejo-paciente-traslado-asistencial",
+      "title": "4. Manejo de pacientes y aislamiento durante el traslado asistencial",
+      "breadcrumb": [
+        "Inicio",
+        "fases del traslado asistencial"        
+      ],
+      "path": "pages/4-1-fases-traslado-asistencial.html",
+      "submenu": [
+        {
+          "icon": "video",
+          "slug": "fases-traslado-asistencial",
+          "title": "4.1 fases del traslado asistencial de pacientes identificados como casos sospechosos o confirmados del coronavirus covid-19",
+          "breadcrumb": [
+            "Inicio",
+            "fases del traslado asistencial"
+          ],          
+          "path": "pages/4-1-fases-traslado-asistencial.html"
+        },{
+          "icon": "document",
+          "slug": "recomendaciones-traslado-asistencial",
+          "title": "4.2 Recomendaciones específicas para el traslado asistencial de pacientes identificados como casos sospechosos o confirmados del coronavirus covid-19",
+          "breadcrumb": [
+            "Inicio",
+            "recomendaciones específicas para el traslado asistencial"
+          ],          
+          "path": "pages/4-2-recomendaciones-traslado-asistencial.html"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-1x fa-question-circle",
+      "slug": "actividad-didactica-fases-traslado",
+      "title": "Actividad didáctica No 3",
+      "breadcrumb": [
+        "Inicio",
+        "Actividad didáctica"
+      ],
+      "path": "pages/4-actividad-didactica.html"
+    },    
+    {
+      "icon": "",
+      "slug": "descontaminacion-introduccion",
+      "title": "5. Descontaminación, limpieza y desinfección.",
+      "breadcrumb": [
+        "Inicio", 
+        "descontaminación, limpieza y desinfección."
+      ],
+      "path": "pages/5-1-protocolo-descontaminacion-personal.html",
+      "submenu": [
+        {
+          "icon": "video",
+          "slug": "protocolo-descontaminacion-personal",
+          "title": "5.1 Protocolo de descontaminación del personal",
+          "breadcrumb": [
+            "Inicio",
+            "Protocolo de descontaminación del personal"
+          ],          
+          "path": "pages/5-1-protocolo-descontaminacion-personal.html"
+        },
+        {
+          "icon": "document",
+          "slug": "limpieza-desinfeccion-equipos",
+          "title": "5.2 Limpieza y desinfección de equipos y superficies críticas",
+          "breadcrumb": [
+            "Inicio",
+            "Limpieza y desinfección de equipos y superficies críticas"
+          ],          
+          "path": "pages/5-2-limpieza-desinfeccion-equipos.html"
+        },
+        {
+          "icon": "document",
+          "slug": "limpieza-desinfeccion-superficies",
+          "title": "5.3 Limpieza y desinfección de superficies con procedimento terminal",
+          "breadcrumb": [
+            "Inicio",
+            "Limpieza y desinfección de superficies con procedimento terminal"
+          ],          
+          "path": "pages/5-3-limpieza-desinfeccion-superficies.html"
+        }
+      ]
+    },
+    {
+      "icon": "fa fa-1x fa-question-circle",
+      "slug": "actividad-didactica-limpieza",
+      "title": "Actividad didáctica No 4",
+      "breadcrumb": [
+        "Inicio",
+        "Actividad didáctica"
+      ],
+      "path": "pages/5-4-actividad-didactica.html"
+    }     
+    
+]

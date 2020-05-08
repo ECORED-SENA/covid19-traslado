@@ -1,0 +1,46 @@
+[{
+    "letter": "a",
+    "terms": [{
+        "title": "Aislamiento",
+        "desciption": "Separación de un individuo de las demás personas, animales, plantas o vegetales enfermas, mercancías, paquetes postales y medios de transporte afectados, con objeto de prevenir la propagación de una infección y/o contaminación. "
+      },{
+        "title": "Aspersión",
+        "desciption": "Consiste en una “lluvia” fina o “roció” tenue de líquido antibacteriano que va depositando la solución desinfectante en una película muy fina, llegando a lugares de difícil acceso. "    
+    }]
+}, {
+    "letter": "c",
+    "terms": [{
+        "title": "Centro Regulador de Urgencias, Emergencias y Desastres, CRUE",
+        "desciption": "Es una unidad de carácter operativo no asistencial, responsable de coordinar y regular en el territorio de su jurisdicción, el acceso a los servicios de urgencias y la atención en salud de la población afectada en situaciones de emergencia o desastre."    
+    }]
+}, {
+    "letter": "d",
+    "terms": [{
+        "title": "Desactivación",
+        "desciption": "Método, técnica o proceso utilizado como pretratamiento para volver inertes los residuos peligrosos y similares, de manera que se puedan transportar y almacenar previamente a la incineración o envío al relleno sanitario."    
+    }]
+}, {
+    "letter": "n",
+    "terms": [{
+        "title": "Normas de bioseguridad",
+        "desciption": "Son las normas de precaución que deben aplicar los trabajadores en áreas asistenciales al manipular sangre, secreciones, fluidos corporales o tejidos provenientes de todo paciente y sus respectivos recipientes, independiente de su estado de salud, y forman parte del programa de salud ocupacional."    
+    }]
+}, {
+    "letter": "p",
+    "terms": [{
+        "title": "Prevención",
+        "desciption": "Es el conjunto de acciones dirigidas a identificar, controlar y reducir los factores de riesgo biológicos, del ambiente y de la salud, que puedan producirse como consecuencia del manejo de los residuos, ya sea en la prestación de servicios de salud o cualquier otra actividad que implique la generación, manejo o disposición de esta clase de residuos, con el fin de evitar que aparezca el riesgo o la enfermedad y se propaguen u ocasionen daños mayores o generen secuelas evitables."    
+    }]
+}, {
+    "letter": "r",
+    "terms": [{
+        "title": "Riesgo biológico",
+        "desciption": "El riesgo biológico o bio riesgo consiste en la presencia de un organismo, o la sustancia derivada de un organismo, que plantea, sobre todo, una amenaza a la salud humana."    
+    }]
+}, {
+    "letter": "t",
+    "terms": [{
+        "title": "Transporte asistencial",
+        "desciption": "Es el servicio de salud donde se realiza el traslado y se brinda atención oportuna y permanente al paciente en ambulancias terrestres, marítimas, fluviales y aéreas."    
+    }]
+}]
