@@ -122,10 +122,10 @@
         {
           "icon": "video",
           "slug": "fases-traslado-asistencial",
-          "title": "4.1 fases del traslado asistencial de pacientes identificados como casos sospechosos o confirmados del coronavirus covid-19",
+          "title": "4.1 Fases del traslado asistencial de pacientes identificados como casos sospechosos o confirmados del coronavirus covid-19",
           "breadcrumb": [
             "Inicio",
-            "fases del traslado asistencial"
+            "Fases del traslado asistencial"
           ],          
           "path": "pages/4-1-fases-traslado-asistencial.html"
         },{
