@@ -1,10 +1,11 @@
 doctype
+include mixins/creditosFooter
 html(lang="es")
   head
     meta(charset="UTF-8")
     meta(name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
     title EDT-Traslado del paciente sospechoso o confirmado Covid19
-    meta(meta name="description" content="A través de este evento de divulgación tecnológica se darán a conocer los lineamientos que deben implementar los servicios de transporte asistencial y atención prehospitalaria para el manejo de pacientes identificados como casos sospechosos o confirmados del coronavirus (SARS CoV-2).")    
+    meta(meta name="description" content="A través de este evento de divulgación tecnológica se darán a conocer los lineamientos que deben implementar los servicios de transporte asistencial y atención prehospitalaria para el manejo de pacientes identificados como casos sospechosos o confirmados del coronavirus (SARS CoV-2). ")    
     link(rel="icon",type="image/svg+xml",href="assets/images/logos/senaLogo.svg")
     link(rel="stylesheet", href="assets/fonts/feather/feather.css")
     link(rel="stylesheet", href="assets/fonts/fontawesome/css/font-awesome.css")
@@ -75,10 +76,10 @@ html(lang="es")
                             .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 1
                         .col.ml-n2
                           span 
-                            a(href="content/#page/introduccion/") Introducción y bioseguridad
+                            a(href="content/index.html#page/introduccion/") Introducción y bioseguridad
                         .col-auto
                           // Button
-                          a(href='content/#page/introduccion/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/introduccion/').btn.btn-light.nav-tema-item__btn
                             | Ver más
 
                     li.list-group-item
@@ -88,10 +89,10 @@ html(lang="es")
                             .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 2
                         .col.ml-n2
                           span 
-                            a(href="content/#page/procedimiento-previo-traslado-paciente/") Procedimiento general previo al traslado asistencial de pacientes
+                            a(href="content/index.html#page/procedimiento-previo-traslado-paciente/") Procedimiento general previo al traslado asistencial de pacientes
                         .col-auto
                           // Button
-                          a(href='content/#page/procedimiento-previo-traslado-paciente/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/procedimiento-previo-traslado-paciente/').btn.btn-light.nav-tema-item__btn
                             | Ver más
                     li.list-group-item
                       .row.align-items-center
@@ -100,10 +101,10 @@ html(lang="es")
                             .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 3
                         .col.ml-n2
                           span 
-                            a(href="content/#page/gestion-centros-regulacion/") Gestión de los centros de regulación y coordinación: CRUE, centrales de comunicaciones, despacho o referencia y contrarreferencia
+                            a(href="content/index.html#page/gestion-centros-regulacion/") Gestión de los centros de regulación y coordinación: CRUE, centrales de comunicaciones, despacho o referencia y contrarreferencia
                         .col-auto
                           // Button
-                          a(href='content/#page/gestion-centros-regulacion/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/gestion-centros-regulacion/').btn.btn-light.nav-tema-item__btn
                             | Ver más
                     li.list-group-item
                       .row.align-items-center
@@ -112,10 +113,10 @@ html(lang="es")
                             .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 4
                         .col.ml-n2
                           span 
-                            a(href="content/#page/manejo-paciente-traslado-asistencial/") Manejo de pacientes y aislamiento durante el traslado asistencial 
+                            a(href="content/index.html#page/manejo-paciente-traslado-asistencial/") Manejo de pacientes y aislamiento durante el traslado asistencial 
                         .col-auto
                           // Button
-                          a(href='content/#page/manejo-paciente-traslado-asistencial/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/manejo-paciente-traslado-asistencial/').btn.btn-light.nav-tema-item__btn
                             | Ver más       
 
                     li.list-group-item
@@ -125,12 +126,12 @@ html(lang="es")
                             .avatar-title.font-size-lg.bg-secondary-soft.rounded-circle.text-primary.font-weight-bold 5
                         .col.ml-n2
                           span 
-                            a(href="content/#page/descontaminacion-introduccion/") Descontaminación, limpieza y desinfección          
+                            a(href="content/index.html#page/descontaminacion-introduccion/") Descontaminación, limpieza y desinfección          
                         .col-auto
                           // Button
-                          a(href='content/#page/descontaminacion-introduccion/').btn.btn-light.nav-tema-item__btn
+                          a(href='content/index.html#page/descontaminacion-introduccion/').btn.btn-light.nav-tema-item__btn
                             | Ver más
     
-    include content/includes/creditos.pug
+    +creditosFooter("assets/images/logos/senaLogo.svg") 
 
     script(src="assets/js/plugins.js")

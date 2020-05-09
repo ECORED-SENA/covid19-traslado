@@ -132,6 +132,8 @@ async function renderGlossary(slug) {
         htmlGlossary += '</div></div></div>';
         mainContent.innerHTML = htmlGlossary;
     }).then(function () { $("body").loader('hide'); });
+
+    $('body,html').stop(true, true).animate({ scrollTop: 0 }, 1000);
 }
 
 function renderConfig(data) {
