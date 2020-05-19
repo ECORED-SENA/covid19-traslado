@@ -92,7 +92,7 @@
     {
       "icon": "video",
       "slug": "gestion-centros-regulacion",
-      "title": "3 Gestión de los centros de regulación y coordinación: CRUE, centrales de comunicaciones, despacho o referencia y contrarreferencia",
+      "title": "3. Gestión de los centros de regulación y coordinación: CRUE, centrales de comunicaciones, despacho o referencia y contrarreferencia",
       "breadcrumb": [
         "Inicio", 
         "Gestión de los centros de regulación y coordinación: CRUE"
@@ -183,10 +183,10 @@
         {
           "icon": "document",
           "slug": "limpieza-desinfeccion-superficies",
-          "title": "5.3 Limpieza y desinfección de superficies con procedimento terminal",
+          "title": "5.3 Limpieza y desinfección de superficies con procedimiento terminal",
           "breadcrumb": [
             "Inicio",
-            "Limpieza y desinfección de superficies con procedimento terminal"
+            "Limpieza y desinfección de superficies con procedimiento terminal"
           ],          
           "path": "pages/5-3-limpieza-desinfeccion-superficies.html"
         }
